@@ -1,0 +1,50 @@
+@import 'header';
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:regular);
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Infant:regular,700);
+
+$font_1: "Josefin Sans";
+$font_2: "Cormorant Infant";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font_1;
+  font-size: 20px;
+  font-weight: normal;
+}
+h1 {
+  font-family: $font_2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 110px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+h2 {
+  font-family: $font_1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #292e36;
+}
+.container {
+  width: 1440px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+.button {
+  width: 295px;
+  height: 73px;
+  background: transparent;
+  border: 2px solid #e1b168;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
