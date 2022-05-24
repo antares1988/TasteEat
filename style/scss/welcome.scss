@@ -1,0 +1,28 @@
+.welcome {
+  background-color: #292e36;
+}
+.welcome_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.welcome_block_aside {
+  width: 50%;
+  color: #fff;
+  .welcome_block_aside_img {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    margin: 25px 0;
+    width: 90%;
+    line-height: 30px;
+  }
+  .button {
+    a {
+      color: #e1b168;
+    }
+  }
+}

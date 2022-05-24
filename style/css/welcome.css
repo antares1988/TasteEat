@@ -1,0 +1,39 @@
+.welcome {
+  background-color: #292e36;
+}
+
+.welcome_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.welcome_block_aside {
+  width: 50%;
+  color: #fff;
+}
+
+.welcome_block_aside .welcome_block_aside_img {
+  width: 100%;
+}
+
+.welcome_block_aside img {
+  width: 100%;
+}
+
+.welcome_block_aside p {
+  margin: 25px 0;
+  width: 90%;
+  line-height: 30px;
+}
+
+.welcome_block_aside .button a {
+  color: #e1b168;
+}
+/*# sourceMappingURL=welcome.css.map */

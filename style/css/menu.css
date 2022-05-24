@@ -1,0 +1,97 @@
+.menu_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 55px;
+}
+
+.offer {
+  width: 36%;
+}
+
+.offer h4 {
+  line-height: 56px;
+}
+
+.offer p {
+  line-height: 30px;
+  color: #555555;
+}
+
+.offer .offer_img {
+  width: 100%;
+  margin: 30px 0 60px 0;
+}
+
+.offer .button a {
+  color: #e1b168;
+}
+
+.menu {
+  width: 64%;
+}
+
+.menu_items {
+  line-height: 30px;
+  color: #555555;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu_item {
+  background-color: azure;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 104px auto max-content min-content;
+      grid-template-columns: 104px auto -webkit-max-content -webkit-min-content;
+      grid-template-columns: 104px auto max-content min-content;
+      grid-template-areas: 'img h5 h5 h5' 'img  p menu_line cost';
+}
+
+.menu_item .menu_item_img {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: img;
+  margin-right: 20px;
+}
+
+.menu_item h5 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: h5;
+}
+
+.menu_item p {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: p;
+}
+
+.menu_item .menu_line {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: menu_line;
+  border-bottom: 2px solid #aaa;
+  margin: 0 10px 20px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.menu_item .cost {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: cost;
+}
+/*# sourceMappingURL=menu.css.map */

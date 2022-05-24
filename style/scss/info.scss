@@ -1,0 +1,35 @@
+.info {
+  background-color: #fff8f5;
+}
+.info_block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 100px 0 60px 0;
+}
+.info_item {
+  display: grid;
+  grid-template-areas: "img h4" "img p";
+  .info_item_img {
+    display: grid;
+    grid-area: img;
+    justify-content: center;
+    align-items: center;
+    width: 83px;
+    height: 83px;
+    background-color: #292e36;
+    border-radius: 100%;
+    margin-right: 20px;
+  }
+  h4 {
+    grid-area: h4;
+    color: #292e36;
+  }
+  p {
+    grid-area: p;
+    color: #555;
+  }
+  a {
+    color: #555;
+  }
+}

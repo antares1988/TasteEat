@@ -1,0 +1,42 @@
+.story {
+  background-color: #fff8f5;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.story_block {
+  display: flex;
+}
+.story_img {
+  width: 60%;
+  img {
+    width: 100%;
+  }
+}
+.story_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+  margin-left: 45px;
+  h4 {
+    font-size: 40px;
+    line-height: 56px;
+    color: #292e36;
+  }
+  p {
+    line-height: 30px;
+    color: #555;
+  }
+}
+.date {
+  display: flex;
+  .year {
+    font-family: 'Cormorant Infant';
+    font-size: 40px;
+    line-height: 56px;
+    color: #292e36;
+  }
+}
+.author {
+  line-height: 30px;
+}
