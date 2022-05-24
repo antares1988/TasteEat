@@ -21,8 +21,14 @@
     }
   }
 }
-.menu {
+.menu_bl {
   width: 64%;
+}
+.menu {
+  width: 100%;
+  h4 {
+    margin-bottom: 40px;
+  }
 }
 .menu_items {
   line-height: 30px;
@@ -32,28 +38,29 @@
   flex-direction: column;
 }
 .menu_item {
-  background-color: azure;
-  display: grid;
-  grid-template-columns: 104px auto max-content min-content;
-  grid-template-areas: 'img h5 h5 h5' 'img  p menu_line cost';
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
   .menu_item_img {
-    grid-area: img;
     margin-right: 20px;
   }
-  h5 {
-    grid-area: h5;
-  }
+}
+.menu_elements {
+  width: 100%;
+}
+.menu_elements_and_price {
+  display: flex;
+  width: 100%;
   p {
-    grid-area: p;
+    display: flex;
   }
   .menu_line {
-    grid-area: menu_line;
-    border-bottom: 2px solid #aaa;
-    margin: 0 10px 20px 10px;
     display: flex;
     flex: 1 1 auto;
+    margin: 0 15px 10px 15px;
+    border-bottom: 1px solid #000;
   }
   .cost {
-    grid-area: cost;
+    display: flex;
   }
 }

@@ -1,0 +1,40 @@
+.testimonial {
+  background-color: #292e36;
+}
+.testimonial_block {
+  color: #fff;
+  h2 {
+    color: #fff;
+  }
+  h4 {
+    font-size: 40px;
+    line-height: 56px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  p {
+    line-height: 30px;
+  }
+}
+.review {
+  display: flex;
+  width: 40%;
+}
+.client {
+  display: grid;
+  .client_img {
+    max-width: 113px;
+    min-height: 113px;
+    img {
+      border-radius: 100%;
+    }
+  }
+  .client_name {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    color: #ffffff;
+  }
+}

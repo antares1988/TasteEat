@@ -239,6 +239,220 @@ ul li {
   color: #555;
 }
 
+.story {
+  background-color: #fff8f5;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.story_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.story_img {
+  width: 60%;
+}
+
+.story_img img {
+  width: 100%;
+}
+
+.story_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 40%;
+  margin-left: 45px;
+}
+
+.story_item h4 {
+  font-size: 40px;
+  line-height: 56px;
+  color: #292e36;
+}
+
+.story_item p {
+  line-height: 30px;
+  color: #555;
+}
+
+.date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.date .year {
+  font-family: 'Cormorant Infant';
+  font-size: 40px;
+  line-height: 56px;
+  color: #292e36;
+}
+
+.author {
+  line-height: 30px;
+}
+
+.testimonial {
+  background-color: #292e36;
+}
+
+.testimonial_block {
+  color: #fff;
+}
+
+.testimonial_block h2 {
+  color: #fff;
+}
+
+.testimonial_block h4 {
+  font-size: 40px;
+  line-height: 56px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.testimonial_block p {
+  line-height: 30px;
+}
+
+.review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+}
+
+.client {
+  display: -ms-grid;
+  display: grid;
+}
+
+.client .client_img {
+  max-width: 113px;
+  min-height: 113px;
+}
+
+.client .client_img img {
+  border-radius: 100%;
+}
+
+.client .client_name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.menu_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 55px;
+}
+
+.offer {
+  width: 36%;
+}
+
+.offer h4 {
+  line-height: 56px;
+}
+
+.offer p {
+  line-height: 30px;
+  color: #555555;
+}
+
+.offer .offer_img {
+  width: 100%;
+  margin: 30px 0 60px 0;
+}
+
+.offer .button a {
+  color: #e1b168;
+}
+
+.menu_bl {
+  width: 64%;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu h4 {
+  margin-bottom: 40px;
+}
+
+.menu_items {
+  line-height: 30px;
+  color: #555555;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.menu_item .menu_item_img {
+  margin-right: 20px;
+}
+
+.menu_elements {
+  width: 100%;
+}
+
+.menu_elements_and_price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.menu_elements_and_price p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu_elements_and_price .menu_line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 0 15px 10px 15px;
+  border-bottom: 1px solid #000;
+}
+
+.menu_elements_and_price .cost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 * {
   margin: 0;
   padding: 0;
